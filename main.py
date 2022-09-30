@@ -29,7 +29,6 @@ import math
 
 class Gcode_Gen:
     def __init__(self):
-        # instance fields found by C# to Python Converter:
         self._minUnitsLineSpacingRandomize = -1
         self._maxUnitsLineSpacingRandomize = -1
         self._moveCoordSettings = "-1,-1"
